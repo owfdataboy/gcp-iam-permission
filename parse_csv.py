@@ -24,7 +24,7 @@ def write_csv_file(data):
 if __name__ == "__main__":
     target_string = read_txt_file('permissions_raw.txt')
     count = 0
-    re_list = list(re.finditer(r'([\w]+\.[\w]+\.+[\w])\w+', target_string))
+    re_list = list(re.finditer(r'a([\w]+\.[\w]+\.+[\w])\w+', target_string))
     end_re_list = re_list + ['']
     data = []
 
@@ -41,8 +41,8 @@ if __name__ == "__main__":
         list_sep = target_string[start:end]
         arr_list_sep = list_sep.split("\n")
         for role in arr_list_sep:
-            if role != '':
-                role_type = ''
+            if role != ' ' and role != '':
+                role_type   = ''
                 if role.startswith("Owner") or role.startswith("Editor") or role.startswith("Viewer"):
                     role_type = "Basics Role"
                 else:

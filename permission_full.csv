@@ -1,4 +1,4 @@
-Permission,Role,Role Type 
+Permission,Role,Role Type
 accessapproval.requests.approve,Owner (roles/owner),Basics Role
 accessapproval.requests.approve,Access Approval Approver (roles/accessapproval.approver),Predefined Role
 accessapproval.requests.dismiss,Owner (roles/owner),Basics Role
@@ -4301,12 +4301,11 @@ artifactregistry.aptartifacts.create,Editor (roles/editor),Basics Role
 artifactregistry.aptartifacts.create,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
 artifactregistry.aptartifacts.create,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.aptartifacts.create,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.aptartifacts.create,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.aptartifacts.create,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.aptartifacts.create,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.aptartifacts.create,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.aptartifacts.create,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.aptartifacts.create,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.dockerimages.get,Owner (roles/owner),Basics Role
 artifactregistry.dockerimages.get,Editor (roles/editor),Basics Role
 artifactregistry.dockerimages.get,Viewer (roles/viewer),Basics Role
@@ -4314,18 +4313,17 @@ artifactregistry.dockerimages.get,Artifact Registry Administrator (roles/artifac
 artifactregistry.dockerimages.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.dockerimages.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.dockerimages.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.dockerimages.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.dockerimages.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.dockerimages.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.dockerimages.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.dockerimages.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.dockerimages.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.dockerimages.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.dockerimages.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.dockerimages.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.dockerimages.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.dockerimages.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.dockerimages.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.dockerimages.list,Owner (roles/owner),Basics Role
 artifactregistry.dockerimages.list,Editor (roles/editor),Basics Role
 artifactregistry.dockerimages.list,Viewer (roles/viewer),Basics Role
@@ -4333,20 +4331,19 @@ artifactregistry.dockerimages.list,Artifact Registry Administrator (roles/artifa
 artifactregistry.dockerimages.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.dockerimages.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.dockerimages.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.dockerimages.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.dockerimages.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.dockerimages.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.dockerimages.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.dockerimages.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.dockerimages.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.dockerimages.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.dockerimages.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.dockerimages.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.dockerimages.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.dockerimages.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.dockerimages.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.dockerimages.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.dockerimages.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.files.get,Owner (roles/owner),Basics Role
 artifactregistry.files.get,Editor (roles/editor),Basics Role
 artifactregistry.files.get,Viewer (roles/viewer),Basics Role
@@ -4354,18 +4351,17 @@ artifactregistry.files.get,Artifact Registry Administrator (roles/artifactregist
 artifactregistry.files.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.files.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.files.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.files.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.files.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.files.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.files.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.files.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.files.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.files.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.files.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.files.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.files.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.files.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.files.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.files.list,Owner (roles/owner),Basics Role
 artifactregistry.files.list,Editor (roles/editor),Basics Role
 artifactregistry.files.list,Viewer (roles/viewer),Basics Role
@@ -4373,20 +4369,19 @@ artifactregistry.files.list,Artifact Registry Administrator (roles/artifactregis
 artifactregistry.files.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.files.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.files.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.files.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.files.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.files.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.files.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.files.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.files.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.files.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.files.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.files.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.files.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.files.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.files.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.files.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.files.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.locations.get,Owner (roles/owner),Basics Role
 artifactregistry.locations.get,Editor (roles/editor),Basics Role
 artifactregistry.locations.get,Viewer (roles/viewer),Basics Role
@@ -4394,18 +4389,17 @@ artifactregistry.locations.get,Artifact Registry Administrator (roles/artifactre
 artifactregistry.locations.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.locations.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.locations.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.locations.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.locations.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.locations.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.locations.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.locations.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.locations.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.locations.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.locations.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.locations.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.locations.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.locations.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.locations.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.locations.list,Owner (roles/owner),Basics Role
 artifactregistry.locations.list,Editor (roles/editor),Basics Role
 artifactregistry.locations.list,Viewer (roles/viewer),Basics Role
@@ -4413,20 +4407,19 @@ artifactregistry.locations.list,Artifact Registry Administrator (roles/artifactr
 artifactregistry.locations.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.locations.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.locations.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.locations.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.locations.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.locations.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.locations.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.locations.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.locations.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.locations.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.locations.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.locations.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.locations.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.locations.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.locations.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.locations.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.locations.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.mavenartifacts.get,Owner (roles/owner),Basics Role
 artifactregistry.mavenartifacts.get,Editor (roles/editor),Basics Role
 artifactregistry.mavenartifacts.get,Viewer (roles/viewer),Basics Role
@@ -4434,18 +4427,17 @@ artifactregistry.mavenartifacts.get,Artifact Registry Administrator (roles/artif
 artifactregistry.mavenartifacts.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.mavenartifacts.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.mavenartifacts.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.mavenartifacts.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.mavenartifacts.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.mavenartifacts.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.mavenartifacts.list,Owner (roles/owner),Basics Role
 artifactregistry.mavenartifacts.list,Editor (roles/editor),Basics Role
 artifactregistry.mavenartifacts.list,Viewer (roles/viewer),Basics Role
@@ -4453,20 +4445,19 @@ artifactregistry.mavenartifacts.list,Artifact Registry Administrator (roles/arti
 artifactregistry.mavenartifacts.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.mavenartifacts.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.mavenartifacts.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.mavenartifacts.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.mavenartifacts.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.mavenartifacts.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.mavenartifacts.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.mavenartifacts.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.mavenartifacts.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.npmpackages.get,Owner (roles/owner),Basics Role
 artifactregistry.npmpackages.get,Editor (roles/editor),Basics Role
 artifactregistry.npmpackages.get,Viewer (roles/viewer),Basics Role
@@ -4474,18 +4465,17 @@ artifactregistry.npmpackages.get,Artifact Registry Administrator (roles/artifact
 artifactregistry.npmpackages.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.npmpackages.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.npmpackages.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.npmpackages.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.npmpackages.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.npmpackages.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.npmpackages.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.npmpackages.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.npmpackages.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.npmpackages.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.npmpackages.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.npmpackages.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.npmpackages.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.npmpackages.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.npmpackages.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.npmpackages.list,Owner (roles/owner),Basics Role
 artifactregistry.npmpackages.list,Editor (roles/editor),Basics Role
 artifactregistry.npmpackages.list,Viewer (roles/viewer),Basics Role
@@ -4493,20 +4483,19 @@ artifactregistry.npmpackages.list,Artifact Registry Administrator (roles/artifac
 artifactregistry.npmpackages.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.npmpackages.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.npmpackages.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.npmpackages.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.npmpackages.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.npmpackages.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.npmpackages.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.npmpackages.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.npmpackages.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.npmpackages.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.npmpackages.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.npmpackages.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.npmpackages.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.npmpackages.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.npmpackages.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.npmpackages.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.npmpackages.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.packages.delete,Owner (roles/owner),Basics Role
 artifactregistry.packages.delete,Editor (roles/editor),Basics Role
 artifactregistry.packages.delete,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
@@ -4522,18 +4511,17 @@ artifactregistry.packages.get,Artifact Registry Administrator (roles/artifactreg
 artifactregistry.packages.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.packages.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.packages.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.packages.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.packages.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.packages.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.packages.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.packages.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.packages.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.packages.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.packages.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.packages.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.packages.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.packages.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.packages.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.packages.list,Owner (roles/owner),Basics Role
 artifactregistry.packages.list,Editor (roles/editor),Basics Role
 artifactregistry.packages.list,Viewer (roles/viewer),Basics Role
@@ -4541,20 +4529,19 @@ artifactregistry.packages.list,Artifact Registry Administrator (roles/artifactre
 artifactregistry.packages.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.packages.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.packages.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.packages.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.packages.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.packages.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.packages.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.packages.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.packages.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.packages.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.packages.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.packages.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.packages.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.packages.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.packages.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.packages.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.packages.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.pythonpackages.get,Owner (roles/owner),Basics Role
 artifactregistry.pythonpackages.get,Editor (roles/editor),Basics Role
 artifactregistry.pythonpackages.get,Viewer (roles/viewer),Basics Role
@@ -4562,18 +4549,17 @@ artifactregistry.pythonpackages.get,Artifact Registry Administrator (roles/artif
 artifactregistry.pythonpackages.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.pythonpackages.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.pythonpackages.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.pythonpackages.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.pythonpackages.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.pythonpackages.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.pythonpackages.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.pythonpackages.list,Owner (roles/owner),Basics Role
 artifactregistry.pythonpackages.list,Editor (roles/editor),Basics Role
 artifactregistry.pythonpackages.list,Viewer (roles/viewer),Basics Role
@@ -4581,20 +4567,19 @@ artifactregistry.pythonpackages.list,Artifact Registry Administrator (roles/arti
 artifactregistry.pythonpackages.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.pythonpackages.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.pythonpackages.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.pythonpackages.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.pythonpackages.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.pythonpackages.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.pythonpackages.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.pythonpackages.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.pythonpackages.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.repositories.create,Owner (roles/owner),Basics Role
 artifactregistry.repositories.create,Editor (roles/editor),Basics Role
 artifactregistry.repositories.create,Vertex AI Service Agent (roles/aiplatform.serviceAgent),Predefined Role
@@ -4639,18 +4624,17 @@ artifactregistry.repositories.downloadArtifacts,Artifact Registry Reader (roles/
 artifactregistry.repositories.downloadArtifacts,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.repositories.downloadArtifacts,Artifact Registry Service Agent (roles/artifactregistry.serviceAgent),Predefined Role
 artifactregistry.repositories.downloadArtifacts,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.repositories.downloadArtifacts,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.repositories.downloadArtifacts,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.repositories.get,Owner (roles/owner),Basics Role
 artifactregistry.repositories.get,Editor (roles/editor),Basics Role
 artifactregistry.repositories.get,Viewer (roles/viewer),Basics Role
@@ -4660,19 +4644,18 @@ artifactregistry.repositories.get,Artifact Registry Administrator (roles/artifac
 artifactregistry.repositories.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.repositories.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.repositories.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.repositories.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Composer API Service Agent (roles/composer.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.repositories.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.repositories.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.repositories.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.repositories.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.get,Cloud Composer API Service Agent (roles/composer.serviceAgent),Predefined Role
+artifactregistry.repositories.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.repositories.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.repositories.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.repositories.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.repositories.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.repositories.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.repositories.getIamPolicy,Owner (roles/owner),Basics Role
 artifactregistry.repositories.getIamPolicy,Editor (roles/editor),Basics Role
 artifactregistry.repositories.getIamPolicy,Viewer (roles/viewer),Basics Role
@@ -4691,21 +4674,20 @@ artifactregistry.repositories.list,Artifact Registry Administrator (roles/artifa
 artifactregistry.repositories.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.repositories.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.repositories.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.repositories.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Composer API Service Agent (roles/composer.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.repositories.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.repositories.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.repositories.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.repositories.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.list,Cloud Composer API Service Agent (roles/composer.serviceAgent),Predefined Role
+artifactregistry.repositories.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.repositories.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.repositories.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.repositories.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.repositories.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.repositories.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.repositories.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.repositories.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.repositories.listEffectiveTags,Owner (roles/owner),Basics Role
 artifactregistry.repositories.listEffectiveTags,Editor (roles/editor),Basics Role
 artifactregistry.repositories.listEffectiveTags,Viewer (roles/viewer),Basics Role
@@ -4713,20 +4695,19 @@ artifactregistry.repositories.listEffectiveTags,Artifact Registry Administrator 
 artifactregistry.repositories.listEffectiveTags,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.repositories.listEffectiveTags,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.repositories.listEffectiveTags,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.repositories.listEffectiveTags,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Tag User (roles/resourcemanager.tagUser),Predefined Role
-cloudbuild.builds.builder,Tag Viewer (roles/resourcemanager.tagViewer),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Tag User (roles/resourcemanager.tagUser),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Tag Viewer (roles/resourcemanager.tagViewer),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.repositories.listEffectiveTags,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.repositories.listTagBindings,Owner (roles/owner),Basics Role
 artifactregistry.repositories.listTagBindings,Editor (roles/editor),Basics Role
 artifactregistry.repositories.listTagBindings,Viewer (roles/viewer),Basics Role
@@ -4734,20 +4715,19 @@ artifactregistry.repositories.listTagBindings,Artifact Registry Administrator (r
 artifactregistry.repositories.listTagBindings,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.repositories.listTagBindings,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.repositories.listTagBindings,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.repositories.listTagBindings,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Tag User (roles/resourcemanager.tagUser),Predefined Role
-cloudbuild.builds.builder,Tag Viewer (roles/resourcemanager.tagViewer),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.repositories.listTagBindings,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.repositories.listTagBindings,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Tag User (roles/resourcemanager.tagUser),Predefined Role
+artifactregistry.repositories.listTagBindings,Tag Viewer (roles/resourcemanager.tagViewer),Predefined Role
+artifactregistry.repositories.listTagBindings,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.repositories.listTagBindings,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.repositories.setIamPolicy,Owner (roles/owner),Basics Role
 artifactregistry.repositories.setIamPolicy,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
 artifactregistry.repositories.setIamPolicy,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
@@ -4767,23 +4747,21 @@ artifactregistry.repositories.uploadArtifacts,Vertex AI Service Agent (roles/aip
 artifactregistry.repositories.uploadArtifacts,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
 artifactregistry.repositories.uploadArtifacts,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.repositories.uploadArtifacts,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.repositories.uploadArtifacts,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.repositories.uploadArtifacts,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.repositories.uploadArtifacts,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.repositories.uploadArtifacts,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.repositories.uploadArtifacts,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.repositories.uploadArtifacts,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.tags.create,Owner (roles/owner),Basics Role
 artifactregistry.tags.create,Editor (roles/editor),Basics Role
 artifactregistry.tags.create,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
 artifactregistry.tags.create,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.tags.create,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.tags.create,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.tags.create,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.tags.create,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.tags.create,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.tags.create,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.tags.create,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.tags.delete,Owner (roles/owner),Basics Role
 artifactregistry.tags.delete,Editor (roles/editor),Basics Role
 artifactregistry.tags.delete,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
@@ -4800,18 +4778,17 @@ artifactregistry.tags.get,Artifact Registry Administrator (roles/artifactregistr
 artifactregistry.tags.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.tags.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.tags.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.tags.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.tags.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.tags.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.tags.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.tags.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.tags.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.tags.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.tags.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.tags.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.tags.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.tags.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.tags.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.tags.list,Owner (roles/owner),Basics Role
 artifactregistry.tags.list,Editor (roles/editor),Basics Role
 artifactregistry.tags.list,Viewer (roles/viewer),Basics Role
@@ -4819,31 +4796,29 @@ artifactregistry.tags.list,Artifact Registry Administrator (roles/artifactregist
 artifactregistry.tags.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.tags.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.tags.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.tags.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.tags.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.tags.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.tags.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.tags.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.tags.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.tags.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.tags.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.tags.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.tags.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.tags.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.tags.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.tags.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.tags.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.tags.update,Owner (roles/owner),Basics Role
 artifactregistry.tags.update,Editor (roles/editor),Basics Role
 artifactregistry.tags.update,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
 artifactregistry.tags.update,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.tags.update,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.tags.update,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.tags.update,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.tags.update,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.tags.update,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.tags.update,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.tags.update,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.versions.delete,Owner (roles/owner),Basics Role
 artifactregistry.versions.delete,Editor (roles/editor),Basics Role
 artifactregistry.versions.delete,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
@@ -4861,18 +4836,17 @@ artifactregistry.versions.get,Artifact Registry Administrator (roles/artifactreg
 artifactregistry.versions.get,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.versions.get,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.versions.get,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.versions.get,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.versions.get,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.versions.get,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.versions.get,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.versions.get,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.versions.get,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.versions.get,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.versions.get,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.versions.get,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.versions.get,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.versions.get,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.versions.get,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.versions.list,Owner (roles/owner),Basics Role
 artifactregistry.versions.list,Editor (roles/editor),Basics Role
 artifactregistry.versions.list,Viewer (roles/viewer),Basics Role
@@ -4880,31 +4854,29 @@ artifactregistry.versions.list,Artifact Registry Administrator (roles/artifactre
 artifactregistry.versions.list,Artifact Registry Reader (roles/artifactregistry.reader),Predefined Role
 artifactregistry.versions.list,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.versions.list,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.versions.list,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
-cloudbuild.builds.builder,Security Admin (roles/iam.securityAdmin),Predefined Role
-cloudbuild.builds.builder,Security Reviewer (roles/iam.securityReviewer),Predefined Role
-cloudbuild.builds.builder,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.versions.list,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.versions.list,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.versions.list,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.versions.list,Compliance Scanning Service Agent (roles/compliancescanning.ServiceAgent),Predefined Role
+artifactregistry.versions.list,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.versions.list,Container Analysis Service Agent (roles/containeranalysis.ServiceAgent),Predefined Role
+artifactregistry.versions.list,Container Scanner Service Agent (roles/containerscanning.ServiceAgent),Predefined Role
+artifactregistry.versions.list,Security Admin (roles/iam.securityAdmin),Predefined Role
+artifactregistry.versions.list,Security Reviewer (roles/iam.securityReviewer),Predefined Role
+artifactregistry.versions.list,AI Platform Service Agent (roles/ml.serviceAgent),Predefined Role
+artifactregistry.versions.list,Cloud Run Service Agent (roles/run.serviceAgent),Predefined Role
+artifactregistry.versions.list,Cloud Run Service Agent (roles/serverless.serviceAgent),Predefined Role
+artifactregistry.versions.list,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 artifactregistry.yumartifacts.create,Owner (roles/owner),Basics Role
 artifactregistry.yumartifacts.create,Editor (roles/editor),Basics Role
 artifactregistry.yumartifacts.create,Artifact Registry Administrator (roles/artifactregistry.admin),Predefined Role
 artifactregistry.yumartifacts.create,Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin),Predefined Role
 artifactregistry.yumartifacts.create,Artifact Registry Writer (roles/artifactregistry.writer),Predefined Role
-artifactregistry.yumartifacts.create,Cloud Build Service Account (roles/,Predefined Role
-cloudbuild.builds.builder,),Predefined Role
-cloudbuild.builds.builder,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
-cloudbuild.builds.builder,Composer Worker (roles/composer.worker),Predefined Role
-cloudbuild.builds.builder,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
+artifactregistry.yumartifacts.create,Cloud Build Service Account (roles/cloudbuild.builds.builder),Predefined Role
+artifactregistry.yumartifacts.create,Cloud Build Service Agent (roles/cloudbuild.serviceAgent),Predefined Role
+artifactregistry.yumartifacts.create,Cloud Functions Service Agent (roles/cloudfunctions.serviceAgent),Predefined Role
+artifactregistry.yumartifacts.create,Composer Worker (roles/composer.worker),Predefined Role
+artifactregistry.yumartifacts.create,Visual Inspection AI Service Agent (roles/visualinspection.serviceAgent),Predefined Role
 assuredworkloads.operations.get,Owner (roles/owner),Basics Role
 assuredworkloads.operations.get,Editor (roles/editor),Basics Role
 assuredworkloads.operations.get,Viewer (roles/viewer),Basics Role
