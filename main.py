@@ -154,7 +154,7 @@ class CrawlJobs:
         self.browser.execute_script("arguments[0].click();", button)
         return href
 
-    def crawl(self):
+    def crawl(self): 
         # sleep(15)
         # delay = 15 # seconds
         # try:
